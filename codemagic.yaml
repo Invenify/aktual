@@ -2,7 +2,7 @@ workflows:
   android-workflow:
     name: Compilation Aktual Android
     environment:
-      java: 17
+      java: 21
     scripts:
       - name: Compiler l'APK Android
         script: |
